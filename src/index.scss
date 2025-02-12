@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif !important;
+
+    &::-webkit-scrollbar {
+        width: .5em;
+        background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(62, 76, 94, 0.4);
+        border-radius: 10px;
+    }
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+button {
+    cursor: pointer;
+}

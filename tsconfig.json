@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@hooks": ["src/hooks/index.ts"],
+            "@services": ["src/services/index.ts"],
+            "@interfaces/services": ["src/interfaces/services/index.ts"],
+            "@types": ["src/types/index.ts"],
+            "@contexts/*": ["src/contexts/*"],
+            "@components": ["src/components/index.ts"],
+            "~/*": ["./*"]
+        },
+
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "lib": ["ES2020", "DOM", "DOM.Iterable"],
+        "module": "ESNext",
+        "skipLibCheck": true,
+        "types": ["node"],
+
+        /* Bundler mode */
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+
+        /* Linting */
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true
+    },
+    "include": ["src", "test"],
+    "references": [{ "path": "./tsconfig.node.json" }]
+}
