@@ -12,7 +12,7 @@ You must have NPM, YARN or NPX installed.
 
 1. Clone the repository
    ```sh
-   git clone https://Septeo-Innovation@dev.azure.com/Septeo-Innovation/Septeo.Innovation/_git/sso.identities.web
+   git clone https://github.com/Nardel34/Workshop-DI-React.git
    ```
 
 2. Install all dependencies
